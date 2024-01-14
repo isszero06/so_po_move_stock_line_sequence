@@ -61,7 +61,7 @@
                 </td>
             </xpath>
         </template>
-        <template id="sequence_report_account_invoice" inherit_id="account.report_invoice_document">
+<!--         <template id="sequence_report_account_invoice" inherit_id="account.report_invoice_document">
           <xpath expr="/t/t/div[2]/div[1]/table/thead/tr/th[1]" position="before">
             <th>
               <strong>Sequence</strong>
@@ -73,4 +73,4 @@
             </td>
           </xpath>
         </template>
-</odoo>
+ --></odoo>
