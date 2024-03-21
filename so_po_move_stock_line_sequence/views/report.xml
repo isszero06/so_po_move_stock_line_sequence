@@ -61,16 +61,16 @@
                 </td>
             </xpath>
         </template>
-<!--         <template id="sequence_report_account_invoice" inherit_id="account.report_invoice_document">
-          <xpath expr="/t/t/div[2]/div[1]/table/thead/tr/th[1]" position="before">
+         <template id="sequence_report_account_invoice" inherit_id="account.report_invoice_document">
+          <xpath expr="//thead//tr//th[@name='th_description']" position="before">
             <th>
               <strong>Sequence</strong>
             </th>
           </xpath>
-          <xpath expr="/t/t/div[2]/div[1]/table/tbody/t[3]/tr/t[1]/td[1]" position="before">
+          <xpath expr="//tbody//td[@name='account_invoice_line_name']" position="before">
             <td>
               <span t-field="line.sequence2"/>
             </td>
           </xpath>
         </template>
- --></odoo>
+ </odoo>
