@@ -11,7 +11,7 @@
 
 {
     "name": "Line Sequence Sales,Purchase,Invoices,Stock",
-    'version': '0.7.1',
+    'version': '0.7.2',
     'category': 'Sales',
     "author": 'Zero Systems',
     "company": 'Zero for Information Systems',
