@@ -65,7 +65,7 @@ class StockMove(models.Model):
 class AccountMoveLine(models.Model):
     _inherit = "account.move.line"
 
-    sequence2 = fields.Integer(string='#', compute='_compute_sequence2', help='Line Numbers',store=True)
+    sequence2 = fields.Integer(string='#', compute='_compute_sequence2', help='Line Numbers')
 
 
     @api.depends('display_type')
